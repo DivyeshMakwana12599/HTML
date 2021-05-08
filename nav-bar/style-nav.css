@@ -1,0 +1,28 @@
+.nav {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: 5rem;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 33.33%;
+  font-size: 3rem;
+  padding: 1rem 0;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+
+.link-one {
+  background-color: royalblue;
+}
+.link-two {
+  background-color: saddlebrown;
+}
+.link-three {
+  background-color: sandybrown;
+}

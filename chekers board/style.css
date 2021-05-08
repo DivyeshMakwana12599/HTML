@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+#div_parent {
+  width: 16rem;
+  height: 16rem;
+  margin: auto;
+}
+.child {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  background-color: #333;
+  color: red;
+  border-collapse: collapse;
+}
+.row {
+  height: 2rem;
+  width: 16rem;
+}
+.row:nth-child(odd) .child:nth-child(even) {
+  background-color: #ccc;
+}
+.row:nth-child(even) .child:nth-child(odd) {
+  background-color: #ccc;
+}
