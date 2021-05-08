@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  background: black;
+  color: white;
+  flex-direction: column;
+  border: 1rem solid black;
+}
+
+.box {
+  padding: 0.2rem;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .box {
+    flex-grow: 0;
+    padding-left: 1.5rem;
+    text-align: right;
+  }
+}
